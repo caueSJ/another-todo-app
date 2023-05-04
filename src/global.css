@@ -1,0 +1,32 @@
+:root {
+  --color-black: #1b1725;
+  --color-white: #fafaff;
+  --color-violet: #534b62;
+  --color-rose: #a499b3;
+  --color-lightpurple: #d0bcd5;
+  --color-blue: #226ce0;
+  --color-lightgreen: #5eb1bf;
+  --color-yellow: #f4e04d;
+  --color-red: #f26d53;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-white);
+  -webkit-font-smoothing: antialising;
+}
+
+body, input, textarea, button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}

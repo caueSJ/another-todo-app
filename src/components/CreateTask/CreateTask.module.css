@@ -1,0 +1,15 @@
+.createtask form {
+    display: flex;
+    gap: 30px;
+}
+
+.createtask {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.createtask input {
+    padding: 5px;
+}

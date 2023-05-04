@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-violet);
+    color: var(--color-white);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.content span {
+    color: var(--color-yellow);
+}
+
+.content a {
+    color: var(--color-lightpurple);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
