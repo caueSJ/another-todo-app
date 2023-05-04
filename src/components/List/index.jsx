@@ -7,7 +7,11 @@ export function List() {
 
   return (
     <ul className={styles.list}>
-      {tasks.lenght === 0 && 'No tasks created'}
+      {tasks.length === 0 && (
+        <div className={styles.empty_list}>
+          Task list is empty...  <br/> Get started by adding your first task!
+        </div>
+      )}
       {tasks.map((task) => (
         <ListItem key={task.id} name={task.name} id={task.id} />
       ))}

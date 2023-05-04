@@ -5,3 +5,7 @@
 .list li + li {
     margin-top: 1.5rem;
 }
+
+.empty_list {
+    text-align: center;
+}
