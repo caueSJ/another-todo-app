@@ -1,9 +1,11 @@
 .item {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
+    align-items: center;
 }
 
 .item strong {
     font-weight: 600;
+    flex: 1;
+    max-width: 90%;
 }

@@ -1,13 +1,14 @@
 :root {
   --color-black: #1b1725;
-  --color-white: #fafaff;
-  --color-violet: #534b62;
-  --color-rose: #a499b3;
-  --color-lightpurple: #d0bcd5;
-  --color-blue: #226ce0;
-  --color-lightgreen: #5eb1bf;
-  --color-yellow: #f4e04d;
-  --color-red: #f26d53;
+  --color-white: #f1f3f5;
+  --color-gray: #343a40;
+  --color-violet: #6741d9;
+  --color-purple: #862e9c;  
+  --color-blue: #1971c2;
+  --color-lightgreen: #15aabf;
+  --color-yellow: #ffc107;
+  --color-red: #c92a2a;
+  --color-green: #2f9e44;
 }
 
 * {

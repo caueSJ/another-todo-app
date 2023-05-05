@@ -16,7 +16,7 @@ export function AboutPage() {
             </div>
 
             <div>
-                <h3>Deploy Services/Plataforms:</h3>
+                <h3>Deploy Services/Platforms:</h3>
                 <ul>
                     <li>Vercel</li>
                     <li>Render</li>

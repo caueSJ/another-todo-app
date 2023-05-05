@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-color: var(--color-violet);
+    background-color: var(--color-gray);
     color: var(--color-white);
 }
 
@@ -19,10 +19,14 @@
 }
 
 .content a {
-    color: var(--color-lightpurple);
+    color: var(--color-white);
     text-decoration: none;
 }
 
 .content a:hover {
     text-decoration: underline;
+}
+
+.content a.homeLink {
+    text-decoration: none;
 }
